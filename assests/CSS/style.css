@@ -17,7 +17,6 @@ html{
     background-color: var(--bluedadk);
     }
 
-
 .contenedor{
     margin:0 auto;
     width: 140vh;
@@ -117,6 +116,7 @@ html{
     padding: 20px;
     background-color: var(--bluelite);
     font-family: "Outfit", sans-serif;
+    margin-bottom: 70px;
 }
 .subtitulo h3{
     margin: 20px 0px;
