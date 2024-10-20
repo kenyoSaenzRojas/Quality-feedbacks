@@ -25,14 +25,14 @@ html{
 }
 .cabecera{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .cabecera h1{
     font-family: "Outfit", sans-serif;
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 600px;
     color:white;
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
 
 }
@@ -41,7 +41,7 @@ html{
     font-family: "Outfit", sans-serif;
     font-weight: 600px;
     color:white;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 20px 0;
     /* margin-top: 20px; */
 }
 
