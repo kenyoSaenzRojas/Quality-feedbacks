@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --bluedadk:#121826;
+    --silver:#9DA3AE;
+    --silverdark:#E5E7EB;
+    --bluelite:#212936;
+    --boldsilver:#DEE9FC;
+    --magenta:#FBE5E6;
+    --yellow:#FCEED8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: var(--bluedadk);
+    }
+
+
+.contenedor{
+    margin:0 auto;
+    width: 140vh;
+    height: 90vh;
+    
+}
+.cabecera{
+    text-align: center;
+    margin-top: 50px;
+}
+.cabecera h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 600px;
+    color:white;
+    width: 400px;
+    margin: 0 auto;
+
+}
+.cabecera p{
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600px;
+    color:white;
+    margin: 20px 0 50px 0;
+    /* margin-top: 20px; */
+}
+
+/* GRID */
+
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+}
+@media only screen and (max-width: 1024px){
+    /* .grid-conteiner{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-row: repeat(1,300px);
+        justify-content: center;
+    } */
+    .grid-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+@media only screen and (max-width: 640px){
+    .contenedor{
+        width: 640px;
+    }
+    
+    .grid-conteiner{
+        display: flex;
+        width: 350px;
+    }
+}
+
+/* body */
+.icon-mano{
+   width: 40px;
+   height: 40px;
+   background-color: rgb(215, 215, 144); 
+   border-radius: 25px;
+   text-align: center;
+   padding: 10px;
+}
+.icon-arco{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(95, 121, 158, 0.726);
+    border-radius: 25px; 
+    text-align: center;
+    padding: 10px;
+
+ }
+ .icon-mensaje{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(232, 173, 203); 
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    
+   
+ }
+.mano,.arco,.mensaje{
+    width: 300px;
+    height: 430px;
+    border: solid var(--bluelite) 1px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--bluelite);
+    font-family: "Outfit", sans-serif;
+}
+.subtitulo h3{
+    margin: 20px 0px;
+    color: white;
+}
+.subtitulo p{
+    margin-bottom: 20px;
+    color: var(--silver);
+    width: 220px;
+    font-style: 16px;
+    font-weight: 400;
+}
+.imagen img{
+    border-radius: 15px;
+}
